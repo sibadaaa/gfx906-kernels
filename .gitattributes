@@ -1,0 +1,8 @@
+* text=auto eol=lf
+
+# HIP sources are C++: let GitHub highlight them as such.
+*.hip linguist-language=C++
+*.cuh linguist-language=C++
+
+# Vendored headers are imported as-is; keep them out of language stats noise.
+src/vendor/** linguist-vendored

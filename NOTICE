@@ -1,0 +1,23 @@
+gfx906-kernels
+Copyright 2026 The gfx906-kernels contributors
+
+This product contains modified portions of the vLLM project:
+  vLLM
+  Copyright (c) 2023-2025, The vLLM Contributors
+  https://github.com/vllm-project/vllm
+  Licensed under the Apache License, Version 2.0
+
+The HIP kernels were extracted from the vLLM tree (csrc/rocm and csrc/mamba)
+and are redistributed here with their device code unchanged.  Integration
+points (host launchers, the torch adapter, the C ABI, build files, tests and
+docs) were written for this project.
+
+The fp8 E4M3 conversion in include/gfx906/detail/fp8_e4m3.h is derived from
+PyTorch's c10::Float8_e4m3fn:
+  PyTorch
+  Copyright (c) Meta Platforms, Inc. and affiliates.
+  https://github.com/pytorch/pytorch
+  Licensed under the BSD 3-Clause license (see the header of that file).
+
+Vendored headers under src/vendor/ are carried over from vLLM (Apache-2.0);
+some of them derive from NVIDIA/FasterTransformer (Apache-2.0).
