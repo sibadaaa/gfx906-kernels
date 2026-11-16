@@ -1,0 +1,272 @@
+  ok    bf16_emu_gemv torch.float16 M=1 N=512 K=512 bias=False  (1, 512) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=1 N=512 K=512 bias=True  (1, 512) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=1 N=2048 K=5120 bias=False  (1, 2048) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=1 N=2048 K=5120 bias=True  (1, 2048) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=1 N=17408 K=5120 bias=False  (1, 17408) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=1 N=17408 K=5120 bias=True  (1, 17408) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=2 N=512 K=512 bias=False  (2, 512) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=2 N=512 K=512 bias=True  (2, 512) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=2 N=2048 K=5120 bias=False  (2, 2048) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=2 N=2048 K=5120 bias=True  (2, 2048) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=2 N=17408 K=5120 bias=False  (2, 17408) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=2 N=17408 K=5120 bias=True  (2, 17408) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=4 N=512 K=512 bias=False  (4, 512) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=4 N=512 K=512 bias=True  (4, 512) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=4 N=2048 K=5120 bias=False  (4, 2048) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=4 N=2048 K=5120 bias=True  (4, 2048) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=4 N=17408 K=5120 bias=False  (4, 17408) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=4 N=17408 K=5120 bias=True  (4, 17408) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=8 N=512 K=512 bias=False  (8, 512) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=8 N=512 K=512 bias=True  (8, 512) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=8 N=2048 K=5120 bias=False  (8, 2048) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=8 N=2048 K=5120 bias=True  (8, 2048) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=8 N=17408 K=5120 bias=False  (8, 17408) torch.float16
+  ok    bf16_emu_gemv torch.float16 M=8 N=17408 K=5120 bias=True  (8, 17408) torch.float16
+  ok    bf16_emu_gemv torch.bfloat16 M=1 N=512 K=512 bias=False  (1, 512) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=1 N=512 K=512 bias=True  (1, 512) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=1 N=2048 K=5120 bias=False  (1, 2048) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=1 N=2048 K=5120 bias=True  (1, 2048) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=1 N=17408 K=5120 bias=False  (1, 17408) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=1 N=17408 K=5120 bias=True  (1, 17408) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=2 N=512 K=512 bias=False  (2, 512) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=2 N=512 K=512 bias=True  (2, 512) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=2 N=2048 K=5120 bias=False  (2, 2048) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=2 N=2048 K=5120 bias=True  (2, 2048) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=2 N=17408 K=5120 bias=False  (2, 17408) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=2 N=17408 K=5120 bias=True  (2, 17408) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=4 N=512 K=512 bias=False  (4, 512) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=4 N=512 K=512 bias=True  (4, 512) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=4 N=2048 K=5120 bias=False  (4, 2048) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=4 N=2048 K=5120 bias=True  (4, 2048) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=4 N=17408 K=5120 bias=False  (4, 17408) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=4 N=17408 K=5120 bias=True  (4, 17408) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=8 N=512 K=512 bias=False  (8, 512) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=8 N=512 K=512 bias=True  (8, 512) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=8 N=2048 K=5120 bias=False  (8, 2048) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=8 N=2048 K=5120 bias=True  (8, 2048) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=8 N=17408 K=5120 bias=False  (8, 17408) torch.bfloat16
+  ok    bf16_emu_gemv torch.bfloat16 M=8 N=17408 K=5120 bias=True  (8, 17408) torch.bfloat16
+  ok    fp16_gemv_stream_m1 N=2048 K=5120  (1, 2048) torch.float16
+  ok    fp16_gemv_stream_m1 N=5120 K=5120  (1, 5120) torch.float16
+  ok    fp16_gemv_stream_m1 N=17408 K=5120  (1, 17408) torch.float16
+  ok    w8a8_sdot4_gemv M=1 N=512 K=512  (1, 512) torch.float16
+  ok    w8a8_sdot4_gemv M=1 N=2048 K=5120  (1, 2048) torch.float16
+  ok    w8a8_sdot4_gemv M=1 N=17408 K=5120  (1, 17408) torch.float16
+  ok    w8a8_sdot4_gemv M=2 N=512 K=512  (2, 512) torch.float16
+  ok    w8a8_sdot4_gemv M=2 N=2048 K=5120  (2, 2048) torch.float16
+  ok    w8a8_sdot4_gemv M=2 N=17408 K=5120  (2, 17408) torch.float16
+  ok    w8a8_sdot4_gemv M=4 N=512 K=512  (4, 512) torch.float16
+  ok    w8a8_sdot4_gemv M=4 N=2048 K=5120  (4, 2048) torch.float16
+  ok    w8a8_sdot4_gemv M=4 N=17408 K=5120  (4, 17408) torch.float16
+  ok    w8a8_sdot4_gemv M=8 N=512 K=512  (8, 512) torch.float16
+  ok    w8a8_sdot4_gemv M=8 N=2048 K=5120  (8, 2048) torch.float16
+  ok    w8a8_sdot4_gemv M=8 N=17408 K=5120  (8, 17408) torch.float16
+  ok    w8a8_sdot4_gemm M=16 N=512 K=512 cfg=0  (16, 512) torch.float16
+  ok    w8a8_sdot4_gemm M=16 N=2048 K=5120 cfg=0  (16, 2048) torch.float16
+  ok    w8a8_sdot4_gemm M=128 N=512 K=512 cfg=0  (128, 512) torch.float16
+  ok    w8a8_sdot4_gemm M=128 N=2048 K=5120 cfg=0  (128, 2048) torch.float16
+  ok    w8a8_sdot4_gemm M=512 N=512 K=512 cfg=0  (512, 512) torch.float16
+  ok    w8a8_sdot4_gemm M=512 N=2048 K=5120 cfg=0  (512, 2048) torch.float16
+  ok    fp8_emu_gemv torch.float16 M=1  (1, 2048) torch.float16
+  ok    fp8_emu_gemv torch.float16 M=4  (4, 2048) torch.float16
+  ok    fp8_emu_gemv torch.bfloat16 M=1  (1, 2048) torch.bfloat16
+  ok    fp8_emu_gemv torch.bfloat16 M=4  (4, 2048) torch.bfloat16
+  ok    fp8_emu_gemm_block_w8a16 M=1 block=(128, 128)  (1, 2048) torch.float16
+  ok    fp8_emu_gemm_block_w8a16 M=4 block=(128, 128)  (4, 2048) torch.float16
+  ok    fp8_emu_gemm_block M=1  (1, 2048) torch.float16
+  ok    fp8_emu_gemm M=1  (1, 2048) torch.float16
+  ok    fp8_emu_gemm_block M=4  (4, 2048) torch.float16
+  ok    fp8_emu_gemm M=4  (4, 2048) torch.float16
+  ok    fp8_emu_gemm_block M=16  (16, 2048) torch.float16
+  ok    fp8_emu_gemm M=16  (16, 2048) torch.float16
+  ok    fp8_emu_gemm_block M=128  (128, 2048) torch.float16
+  ok    fp8_emu_gemm M=128  (128, 2048) torch.float16
+  ok    fp8_emu_gemm_block_w8a16_smul  (1, 2048) torch.float16
+  ok    fp8_stage_int8_pc quant_w  (2048, 5120) torch.int8
+  ok    fp8_stage_int8_pc scale_w  (2048,) torch.float32
+  ok    w8a8_sdot4_gemm_pc M=128 cfg=0  (128, 2048) torch.float16
+  ok    w8a8_sdot4_gemm_pc M=128 cfg=4  (128, 2048) torch.float16
+  ok    fp8_emu_mm_int8_pc M=128  (128, 2048) torch.float16
+  ok    w8a8_sdot4_gemm_pc M=512 cfg=0  (512, 2048) torch.float16
+  ok    w8a8_sdot4_gemm_pc M=512 cfg=4  (512, 2048) torch.float16
+  ok    fp8_emu_mm_int8_pc M=512  (512, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant M=1 eps=1e-10  (1, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant_x M=1 eps=1e-10 out  (1, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant_x M=1 eps=1e-10 x_q  (1, 5120) torch.uint8
+  ok    fp8_emu_gemm_block_quant_x M=1 eps=1e-10 x_s  (1, 40) torch.float32
+  ok    fp8_emu_gemm_block_quant M=1 eps=0.001  (1, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant_x M=1 eps=0.001 out  (1, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant_x M=1 eps=0.001 x_q  (1, 5120) torch.uint8
+  ok    fp8_emu_gemm_block_quant_x M=1 eps=0.001 x_s  (1, 40) torch.float32
+  ok    fp8_emu_gemm_block_quant M=16 eps=1e-10  (16, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant_x M=16 eps=1e-10 out  (16, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant_x M=16 eps=1e-10 x_q  (16, 5120) torch.uint8
+  ok    fp8_emu_gemm_block_quant_x M=16 eps=1e-10 x_s  (16, 40) torch.float32
+  ok    fp8_emu_gemm_block_quant M=16 eps=0.001  (16, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant_x M=16 eps=0.001 out  (16, 2048) torch.float16
+  ok    fp8_emu_gemm_block_quant_x M=16 eps=0.001 x_q  (16, 5120) torch.uint8
+  ok    fp8_emu_gemm_block_quant_x M=16 eps=0.001 x_s  (16, 40) torch.float32
+  ok    gemma_fused_add torch.float16/torch.float16 1x5120 out  (1, 5120) torch.float16
+  ok    gemma_fused_add torch.float16/torch.float16 1x5120 residual  (1, 5120) torch.float32
+  ok    gemma_fused_add torch.float16/torch.float32 1x5120 out  (1, 5120) torch.float16
+  ok    gemma_fused_add torch.float16/torch.float32 1x5120 residual  (1, 5120) torch.float32
+  ok    gemma_fused_add torch.float16/torch.float16 4x5120 out  (4, 5120) torch.float16
+  ok    gemma_fused_add torch.float16/torch.float16 4x5120 residual  (4, 5120) torch.float32
+  ok    gemma_fused_add torch.float16/torch.float32 4x5120 out  (4, 5120) torch.float16
+  ok    gemma_fused_add torch.float16/torch.float32 4x5120 residual  (4, 5120) torch.float32
+  ok    gemma_fused_add torch.float16/torch.float16 128x5120 out  (128, 5120) torch.float16
+  ok    gemma_fused_add torch.float16/torch.float16 128x5120 residual  (128, 5120) torch.float32
+  ok    gemma_fused_add torch.float16/torch.float32 128x5120 out  (128, 5120) torch.float16
+  ok    gemma_fused_add torch.float16/torch.float32 128x5120 residual  (128, 5120) torch.float32
+  ok    gemma_fused_add torch.bfloat16/torch.bfloat16 1x5120 out  (1, 5120) torch.bfloat16
+  ok    gemma_fused_add torch.bfloat16/torch.bfloat16 1x5120 residual  (1, 5120) torch.float32
+  ok    gemma_fused_add torch.bfloat16/torch.float32 1x5120 out  (1, 5120) torch.bfloat16
+  ok    gemma_fused_add torch.bfloat16/torch.float32 1x5120 residual  (1, 5120) torch.float32
+  ok    gemma_fused_add torch.bfloat16/torch.bfloat16 4x5120 out  (4, 5120) torch.bfloat16
+  ok    gemma_fused_add torch.bfloat16/torch.bfloat16 4x5120 residual  (4, 5120) torch.float32
+  ok    gemma_fused_add torch.bfloat16/torch.float32 4x5120 out  (4, 5120) torch.bfloat16
+  ok    gemma_fused_add torch.bfloat16/torch.float32 4x5120 residual  (4, 5120) torch.float32
+  ok    gemma_fused_add torch.bfloat16/torch.bfloat16 128x5120 out  (128, 5120) torch.bfloat16
+  ok    gemma_fused_add torch.bfloat16/torch.bfloat16 128x5120 residual  (128, 5120) torch.float32
+  ok    gemma_fused_add torch.bfloat16/torch.float32 128x5120 out  (128, 5120) torch.bfloat16
+  ok    gemma_fused_add torch.bfloat16/torch.float32 128x5120 residual  (128, 5120) torch.float32
+  ok    rms_norm_gated torch.float16 1x5120 before=True  (1, 5120) torch.float16
+  ok    rms_norm_gated torch.float16 1x5120 before=False  (1, 5120) torch.float16
+  ok    gemma_rms_norm torch.float16 1x5120  (1, 5120) torch.float16
+  ok    rms_norm_gated torch.float16 4x5120 before=True  (4, 5120) torch.float16
+  ok    rms_norm_gated torch.float16 4x5120 before=False  (4, 5120) torch.float16
+  ok    gemma_rms_norm torch.float16 4x5120  (4, 5120) torch.float16
+  ok    rms_norm_gated torch.float16 512x5120 before=True  (512, 5120) torch.float16
+  ok    rms_norm_gated torch.float16 512x5120 before=False  (512, 5120) torch.float16
+  ok    gemma_rms_norm torch.float16 512x5120  (512, 5120) torch.float16
+  ok    rms_norm_gated torch.bfloat16 1x5120 before=True  (1, 5120) torch.bfloat16
+  ok    rms_norm_gated torch.bfloat16 1x5120 before=False  (1, 5120) torch.bfloat16
+  ok    gemma_rms_norm torch.bfloat16 1x5120  (1, 5120) torch.bfloat16
+  ok    rms_norm_gated torch.bfloat16 4x5120 before=True  (4, 5120) torch.bfloat16
+  ok    rms_norm_gated torch.bfloat16 4x5120 before=False  (4, 5120) torch.bfloat16
+  ok    gemma_rms_norm torch.bfloat16 4x5120  (4, 5120) torch.bfloat16
+  ok    rms_norm_gated torch.bfloat16 512x5120 before=True  (512, 5120) torch.bfloat16
+  ok    rms_norm_gated torch.bfloat16 512x5120 before=False  (512, 5120) torch.bfloat16
+  ok    gemma_rms_norm torch.bfloat16 512x5120  (512, 5120) torch.bfloat16
+  ok    gdn_decode torch.float16/torch.float16 l2norm=False out  (1, 4, 4, 128) torch.float16
+  ok    gdn_decode torch.float16/torch.float16 l2norm=False state  (8, 4, 128, 128) torch.float16
+  ok    gdn_decode torch.float16/torch.float16 l2norm=True out  (1, 4, 4, 128) torch.float16
+  ok    gdn_decode torch.float16/torch.float16 l2norm=True state  (8, 4, 128, 128) torch.float16
+  ok    gdn_decode torch.float16/torch.float32 l2norm=False out  (1, 4, 4, 128) torch.float16
+  ok    gdn_decode torch.float16/torch.float32 l2norm=False state  (8, 4, 128, 128) torch.float32
+  ok    gdn_decode torch.float16/torch.float32 l2norm=True out  (1, 4, 4, 128) torch.float16
+  ok    gdn_decode torch.float16/torch.float32 l2norm=True state  (8, 4, 128, 128) torch.float32
+  ok    gdn_decode torch.bfloat16/torch.bfloat16 l2norm=False out  (1, 4, 4, 128) torch.bfloat16
+  ok    gdn_decode torch.bfloat16/torch.bfloat16 l2norm=False state  (8, 4, 128, 128) torch.bfloat16
+  ok    gdn_decode torch.bfloat16/torch.bfloat16 l2norm=True out  (1, 4, 4, 128) torch.bfloat16
+  ok    gdn_decode torch.bfloat16/torch.bfloat16 l2norm=True state  (8, 4, 128, 128) torch.bfloat16
+  ok    gdn_decode torch.bfloat16/torch.float32 l2norm=False out  (1, 4, 4, 128) torch.bfloat16
+  ok    gdn_decode torch.bfloat16/torch.float32 l2norm=False state  (8, 4, 128, 128) torch.float32
+  ok    gdn_decode torch.bfloat16/torch.float32 l2norm=True out  (1, 4, 4, 128) torch.bfloat16
+  ok    gdn_decode torch.bfloat16/torch.float32 l2norm=True state  (8, 4, 128, 128) torch.float32
+  ok    attnd_inner torch.float16 delayed=False descale=False segm_output  (32, 6, 2, 256) torch.float16
+  ok    attnd_inner torch.float16 delayed=False descale=False segm_max  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float16 delayed=False descale=False segm_expsum  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float16 delayed=False descale=True segm_output  (32, 6, 2, 256) torch.float16
+  ok    attnd_inner torch.float16 delayed=False descale=True segm_max  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float16 delayed=False descale=True segm_expsum  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float16 delayed=True descale=False segm_output  (32, 6, 2, 256) torch.float16
+  ok    attnd_inner torch.float16 delayed=True descale=False segm_max  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float16 delayed=True descale=False segm_expsum  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float16 delayed=True descale=True segm_output  (32, 6, 2, 256) torch.float16
+  ok    attnd_inner torch.float16 delayed=True descale=True segm_max  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float16 delayed=True descale=True segm_expsum  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float32 delayed=False descale=False segm_output  (32, 6, 2, 256) torch.float32
+  ok    attnd_inner torch.float32 delayed=False descale=False segm_max  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float32 delayed=False descale=False segm_expsum  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float32 delayed=False descale=True segm_output  (32, 6, 2, 256) torch.float32
+  ok    attnd_inner torch.float32 delayed=False descale=True segm_max  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float32 delayed=False descale=True segm_expsum  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float32 delayed=True descale=False segm_output  (32, 6, 2, 256) torch.float32
+  ok    attnd_inner torch.float32 delayed=True descale=False segm_max  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float32 delayed=True descale=False segm_expsum  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float32 delayed=True descale=True segm_output  (32, 6, 2, 256) torch.float32
+  ok    attnd_inner torch.float32 delayed=True descale=True segm_max  (32, 6, 2) torch.float32
+  ok    attnd_inner torch.float32 delayed=True descale=True segm_expsum  (32, 6, 2) torch.float32
+  ok    attnd_kvint8 torch.float16 delayed=False segm_output  (32, 12, 2, 256) torch.float16
+  ok    attnd_kvint8 torch.float16 delayed=False segm_max  (32, 12, 2) torch.float32
+  ok    attnd_kvint8 torch.float16 delayed=False segm_expsum  (32, 12, 2) torch.float32
+  ok    attnd_kvint8 torch.float16 delayed=True segm_output  (32, 12, 2, 256) torch.float16
+  ok    attnd_kvint8 torch.float16 delayed=True segm_max  (32, 12, 2) torch.float32
+  ok    attnd_kvint8 torch.float16 delayed=True segm_expsum  (32, 12, 2) torch.float32
+  ok    attnd_kvint8 torch.float32 delayed=False segm_output  (32, 12, 2, 256) torch.float32
+  ok    attnd_kvint8 torch.float32 delayed=False segm_max  (32, 12, 2) torch.float32
+  ok    attnd_kvint8 torch.float32 delayed=False segm_expsum  (32, 12, 2) torch.float32
+  ok    attnd_kvint8 torch.float32 delayed=True segm_output  (32, 12, 2, 256) torch.float32
+  ok    attnd_kvint8 torch.float32 delayed=True segm_max  (32, 12, 2) torch.float32
+  ok    attnd_kvint8 torch.float32 delayed=True segm_expsum  (32, 12, 2) torch.float32
+  ok    gdn_packed torch.float16/torch.float16 l2norm=False tiled=False out  (4, 1, 2, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float16 l2norm=False tiled=False state  (8, 2, 128, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float16 l2norm=False tiled=True out  (4, 1, 2, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float16 l2norm=False tiled=True state  (8, 2, 128, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float16 l2norm=True tiled=False out  (4, 1, 2, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float16 l2norm=True tiled=False state  (8, 2, 128, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float16 l2norm=True tiled=True out  (4, 1, 2, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float16 l2norm=True tiled=True state  (8, 2, 128, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float32 l2norm=False tiled=False out  (4, 1, 2, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float32 l2norm=False tiled=False state  (8, 2, 128, 128) torch.float32
+  ok    gdn_packed torch.float16/torch.float32 l2norm=False tiled=True out  (4, 1, 2, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float32 l2norm=False tiled=True state  (8, 2, 128, 128) torch.float32
+  ok    gdn_packed torch.float16/torch.float32 l2norm=True tiled=False out  (4, 1, 2, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float32 l2norm=True tiled=False state  (8, 2, 128, 128) torch.float32
+  ok    gdn_packed torch.float16/torch.float32 l2norm=True tiled=True out  (4, 1, 2, 128) torch.float16
+  ok    gdn_packed torch.float16/torch.float32 l2norm=True tiled=True state  (8, 2, 128, 128) torch.float32
+  ok    gdn_packed torch.bfloat16/torch.bfloat16 l2norm=False tiled=False out  (4, 1, 2, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.bfloat16 l2norm=False tiled=False state  (8, 2, 128, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.bfloat16 l2norm=False tiled=True out  (4, 1, 2, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.bfloat16 l2norm=False tiled=True state  (8, 2, 128, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.bfloat16 l2norm=True tiled=False out  (4, 1, 2, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.bfloat16 l2norm=True tiled=False state  (8, 2, 128, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.bfloat16 l2norm=True tiled=True out  (4, 1, 2, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.bfloat16 l2norm=True tiled=True state  (8, 2, 128, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.float32 l2norm=False tiled=False out  (4, 1, 2, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.float32 l2norm=False tiled=False state  (8, 2, 128, 128) torch.float32
+  ok    gdn_packed torch.bfloat16/torch.float32 l2norm=False tiled=True out  (4, 1, 2, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.float32 l2norm=False tiled=True state  (8, 2, 128, 128) torch.float32
+  ok    gdn_packed torch.bfloat16/torch.float32 l2norm=True tiled=False out  (4, 1, 2, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.float32 l2norm=True tiled=False state  (8, 2, 128, 128) torch.float32
+  ok    gdn_packed torch.bfloat16/torch.float32 l2norm=True tiled=True out  (4, 1, 2, 128) torch.bfloat16
+  ok    gdn_packed torch.bfloat16/torch.float32 l2norm=True tiled=True state  (8, 2, 128, 128) torch.float32
+  ok    conv1d_decode torch.float16/torch.float16 bias=False idx=False silu=False  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float16 bias=False idx=False silu=True  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float16 bias=False idx=True silu=False  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float16 bias=False idx=True silu=True  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float16 bias=True idx=False silu=False  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float16 bias=True idx=False silu=True  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float16 bias=True idx=True silu=False  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float16 bias=True idx=True silu=True  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float32 bias=False idx=False silu=False  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float32 bias=False idx=False silu=True  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float32 bias=False idx=True silu=False  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float32 bias=False idx=True silu=True  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float32 bias=True idx=False silu=False  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float32 bias=True idx=False silu=True  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float32 bias=True idx=True silu=False  (4, 256) torch.float16
+  ok    conv1d_decode torch.float16/torch.float32 bias=True idx=True silu=True  (4, 256) torch.float16
+  ok    conv1d_decode torch.bfloat16/torch.bfloat16 bias=False idx=False silu=False  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.bfloat16 bias=False idx=False silu=True  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.bfloat16 bias=False idx=True silu=False  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.bfloat16 bias=False idx=True silu=True  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.bfloat16 bias=True idx=False silu=False  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.bfloat16 bias=True idx=False silu=True  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.bfloat16 bias=True idx=True silu=False  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.bfloat16 bias=True idx=True silu=True  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.float32 bias=False idx=False silu=False  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.float32 bias=False idx=False silu=True  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.float32 bias=False idx=True silu=False  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.float32 bias=False idx=True silu=True  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.float32 bias=True idx=False silu=False  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.float32 bias=True idx=False silu=True  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.float32 bias=True idx=True silu=False  (4, 256) torch.bfloat16
+  ok    conv1d_decode torch.bfloat16/torch.float32 bias=True idx=True silu=True  (4, 256) torch.bfloat16
+gfx906_kernels build: gfx906-kernels dev
+reference: torch.ops._rocm_C
+
+skipped: paged attention: upstream kernel asserts on gfx906 (MFMA-only body); set GX906_TEST_PAGED=1 to run anyway
+
+all cases bit-exact
